@@ -3,11 +3,12 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.kotlin.kapt)
     alias(libs.plugins.dagger.hilt)
+    alias(libs.plugins.kotlin.compose)
 }
 
 android {
     namespace = "com.feature_repos"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 26
